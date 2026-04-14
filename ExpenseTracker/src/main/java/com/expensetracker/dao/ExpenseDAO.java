@@ -18,7 +18,7 @@ public class ExpenseDAO {
             stmt.setString(1, category);
             stmt.setDouble(2, amount);
 
-            // ✅ FIX HERE
+
             stmt.setDate(3, Date.valueOf(date));
 
             stmt.executeUpdate();

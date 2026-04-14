@@ -15,7 +15,7 @@ public class DBConnection {
         try {
             Properties props = new Properties();
 
-            // ✅ MOST RELIABLE WAY
+            // MOST RELIABLE WAY
             InputStream input = DBConnection.class
                     .getClassLoader()
                     .getResourceAsStream("application.properties");
